@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gestion de Stock</string>
+    <!-- <string-array name="categorie">
+        <item>Tous</item>
+        <item>Telephone</item>
+        <item>Pc portable</item>
+        <item>Television</item>
+        <item>Tablette</item>
+    </string-array>
+    -->
+
+</resources>

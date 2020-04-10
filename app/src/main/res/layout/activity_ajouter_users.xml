@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.surji.fellah.AjouterUsers"
+    android:orientation="vertical"
+    android:background="#f5f6fa">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/login_shape_bk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-70dp"
+            android:text="Sign up"
+            android:textColor="#fff"
+            android:textSize="28dp"
+            android:src="@drawable/user" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:hint="  Nom"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/z1"
+            android:textColor="#353b48" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:hint="  Mot de passe"
+            android:layout_marginEnd="20dp"
+            android:inputType="textPassword"
+            android:id="@+id/z2"
+            android:textColor="#353b48"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:hint="  Confirmer Mot de passe"
+            android:inputType="textPassword"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/z3"
+            android:textColor="#353b48"/>
+
+        <Button
+            android:id="@+id/users"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/login_shape_bk_button"
+            android:gravity="center"
+            android:text="create"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|bottom"
+        android:layout_gravity="right|bottom">
+
+        <Button
+            android:onClick="Connecter"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="✔"
+            android:textColor="#fff"
+            android:background="@drawable/round_button"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

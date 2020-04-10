@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.surji.fellah.GetIn"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#A8C3C8">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/st"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fellah's Stock"
+        android:textSize="20dp"
+        android:textColor="#073750"
+        android:layout_marginBottom="280dp"/>
+
+    <Button
+        android:onClick="getIn"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:text="Get In"
+        android:textColor="#fff"
+        android:background="@drawable/round_button"/>
+
+
+
+</LinearLayout>
