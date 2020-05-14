@@ -57,7 +57,7 @@ public class Users extends AppCompatActivity {
                 //l'ajout des donnees recuperees au stringBuffer
                 while (res.moveToNext())
                 {
-                    if ((nom.getText().toString()).equals("fellah") && (pswd.getText().toString()).equals("fellah"))
+                    if ((nom.getText().toString()).equals("jibari") && (pswd.getText().toString()).equals("jibari"))
                     {
                         ii++;
                     }
